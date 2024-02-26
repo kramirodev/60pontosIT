@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: rgb(245, 250, 255);
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+}
+
+.nuvem {
+    position: absolute;
+    z-index: -1;
+    width: 147%;
+    height: auto;
+    opacity: 0.7;
+}
+
+header {
+    background-color: aliceblue;
+    color: #106382;
+    text-align: center;
+    padding: 2.94vw 0; /* (20px / 680px) * 100 */
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    max-width: 58.82vw; /* (800px / 1360px) * 100 */
+    margin: 1.47vw auto; /* (20px / 1360px) * 100 */
+    padding: 2.94vw; /* (20px / 680px) * 100 */
+    border: 0.3vw solid aliceblue; /* (3px / 1360px) * 100 */
+    border-radius: 4vw; /* (8px / 1360px) * 100 */
+    color: aliceblue;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+p {
+    color: aliceblue;
+}
+
+footer {
+    background-color: #0d303d;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+.footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.18vw; /* (16px / 1360px) * 100 */
+    margin: 0.37vw 0; /* (5px / 1360px) * 100 */
+}
